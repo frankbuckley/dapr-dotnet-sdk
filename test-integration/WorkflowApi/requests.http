@@ -1,0 +1,10 @@
+@DaprWorkflowTest_HostAddress = http://localhost:5177
+
+POST {{DaprWorkflowTest_HostAddress}}/workflow/
+Content-Type: application/json
+
+{
+  "input":"A test.",
+  "start_time" : "2025-07-09T20:00:00Z"
+}
+###
